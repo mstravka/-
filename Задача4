@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main() {
+    double A, B, C; // 
+
+    // 
+    std::cout << "Enter length (A): ";
+    std::cin >> A;
+    std::cout << "Enter width (B): ";
+    std::cin >> B;
+    std::cout << "Enter height (C): ";
+    std::cin >> C;
+
+    // 
+    double volume = A * B * C;
+
+    // 
+    double surfaceArea = 2 * (A * B + A * C + B * C);
+
+    // 
+    std::cout << "Volume: " << volume << std::endl;
+    std::cout << "Surface Area: " << surfaceArea << std::endl;
+
+    return 0;
+}
