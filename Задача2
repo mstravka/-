@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string name; // Змінна для збереження імені
+
+    std::cout << "Enter the name: "; // Вивід запиту на введення імені
+    std::getline(std::cin, name); // Зчитування рядка з пробілами
+
+    std::cout << "Hello, " << name << "!" << std::endl; // Вивід привітання
+
+    return 0;
+}
